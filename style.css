@@ -2,7 +2,7 @@
    background-color: #1F2937;
    display: flex;
    justify-content: space-around;
-   height: 80vh; 
+   height: 20vh; 
 }
 #logo{
     color: aliceblue;
@@ -20,4 +20,35 @@
 #menu li a{
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.hero-section{
+    background-color:#1F2937;
+    display: flex;
+    height: 65vh;
+    justify-content: center;
+}
+.hero-container{
+    flex: 1;
+    max-width: 420px;
+    padding: 0 10px;
+}
+#hero h1{
+   font-size: 48px;
+   color: #F9FAF8;
+   font-weight: extra-bold;
+   margin-bottom: 0px;
+}
+#hero p{
+    margin-top: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#hero button{
+    background-color: #3882F6;
+    outline: none;
+    color:#E5E7EB;
+    border: none;
+    padding: 8px 48px;
+    border-radius: 8px;
 }
