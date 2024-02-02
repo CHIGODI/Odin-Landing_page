@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .header{
    background-color: #1F2937;
    display: flex;
@@ -51,4 +54,28 @@
     border: none;
     padding: 8px 48px;
     border-radius: 8px;
+}
+
+.info h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-top: 32px;
+}
+.info{
+    width: 70%;
+    margin: 0 auto;
+}
+.flex-info-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container-info{
+    border: #3882F6 solid 4px;
+    border-radius: 16px;
+    width: 176px;
+    height: 175px;
+
 }
