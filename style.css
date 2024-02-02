@@ -1,14 +1,23 @@
 *{
     box-sizing: border-box;
 }
+.rorobg{
+    background-image: url(design-images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
 .header{
-   background-color: #1F2937;
    display: flex;
    justify-content: space-around;
    height: 20vh; 
+   
 }
-#logo{
-    color: aliceblue;
+#logo img{
+    border-radius: 50%;
+    width: 100%;
+    height: 80%;
+    border:  #FFFF00 2px solid;
 }
 #menu{
     display: flex;
@@ -26,7 +35,6 @@
 }
 
 .hero-section{
-    background-color:#1F2937;
     display: flex;
     height: 65vh;
     justify-content: center;
@@ -48,12 +56,13 @@
     color: #E5E7EB;
 }
 #hero button{
-    background-color: #3882F6;
+    background-color: #FFFF00;
     outline: none;
-    color:#E5E7EB;
+    color:#333;
     border: none;
     padding: 8px 48px;
     border-radius: 8px;
+    font-weight: bold;
 }
 
 .info h2{
@@ -73,10 +82,17 @@
     display: flex;
     justify-content: space-around;
 }
-.container-info{
-    border: #3882F6 solid 4px;
+.container-info{ 
     border-radius: 16px;
-    width: 160px;
-    height: 160px;
+    height: auto;
+    width: 200px;
 
+
+}
+.container-info img{
+    border: 4px solid #e8cc98;
+    width: max-content;
+    width: 160px;
+    height: 100%;
+    border-radius: 16px;
 }
