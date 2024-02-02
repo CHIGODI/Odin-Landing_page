@@ -1,0 +1,23 @@
+.header{
+   background-color: #1F2937;
+   display: flex;
+   justify-content: space-around;
+   height: 80vh; 
+}
+#logo{
+    color: aliceblue;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;    
+}
+#menu li{
+    list-style: none;
+    float: left;
+    font-size: 18px;
+    padding: 10px;
+}
+#menu li a{
+    color: #E5E7EB;
+    text-decoration: none;
+}
