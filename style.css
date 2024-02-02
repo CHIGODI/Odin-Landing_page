@@ -5,7 +5,6 @@
 }
 body p{
     font-family: 'Roboto', sans-serif;
-
 }
 body a{
     text-decoration: none;
@@ -116,4 +115,74 @@ body a{
 .container-info figcaption{
     text-align: center;
     font-family: 'Roboto', sans-serif;
+}
+
+.testimonials{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+#testimonial-container{
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+}
+#testimonial-container p{
+    font-size: 18px;
+    line-height: normal;
+    color: #1F2937;
+}
+.custm-name{
+    color: #1F2937;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+.call-to-action{
+    background-color: #593C2E;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    border-radius: 8px;
+    margin: 64px auto; 
+}
+
+#action-container{
+    width: 60%;
+    border-radius: 8px;
+    padding-left: 160px;
+    margin: 24px 0;
+}
+#action-container-btn{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin: 24px 0;
+}
+#action-container-btn button{
+    width: 50%;
+    text-align: center;
+    padding: 16px 32px;
+    border: #593C2E 2px solid;
+    background-color: #F9FAF8;
+    color: #593C2E;
+    font-weight: bold;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+#action-container p, h2{
+    color: #F9FAF8;
+    margin: 8px;
+}
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.footer h3{
+    color: #E5E7EB;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
