@@ -7,6 +7,10 @@ body p{
     font-family: 'Roboto', sans-serif;
 
 }
+body a{
+    text-decoration: none;
+    color: #333;
+}
 .rorobg{
     background-image: url(design-images/main.jpg);
     background-repeat: no-repeat;
